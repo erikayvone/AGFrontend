@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=q, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+<body>
+        <div class="relative bg-green-500 h-screen w-screen flex flex-col bg-cover bg-no-repeat" style="background-image: url('bg.png');">
+            <div class="flex flex-col bg-white h-24 w-screen">
+                <div class="flex flex-row items-center justify-start mx-32">
+                    <img src="logo.png" class="h-20 w-auto">  
+                     <!--nav-->
+                    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+                                <div class="flex-1 flex justify-between items-center">
+                                    <label for="menu-toggle" class="point-cursor"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                      </svg>
+                                    </label>
+                                    <input type="checkbox" class="hidden" id="menu-toggle"/>
+                                    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+                                        <nav>
+                                            <ul class=" lg:flex  justify-between  text-gray-700 pt-4 lg:pt-0 text-2xl mx-64">
+                                                <li class="text-right">
+                                                    <a href="#" class="lg:p-4 py-3 px-0  border-b-2 border-transparent hover:hover-gray700 inline"> About us</a>
+                                                    <a href="#" class="lg:p-4 py-3 px-0  border-b-2 border-transparent hover:hover-gray700 inline"> Forms</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                    </header>
+                </div>
+            </div>
+            <div class="mt-8 grid lg:grid-cols-3 gap-5 pt-6">
+                <!--cards-->
+                <div class="bg-white  overflow-hidden shadow-md relative">
+                    <div class="m-4 text-center pt-24 pb-24">
+                        <span class="font-bold text-blue-700 text-center justify-center uppercase pt-6 text-xl whitespace-pre">Announcement</span>
+                        <span class="block text-blue-700 text-lg pt-6"> To our value customer:</span>
+                        <span class="text-blue-700 pt-6 leading-relaxed">Antel group of companies is one with the community during this lockdown
+                            this covid-19 outbreak. During this 30-day lockdown period, we will not be imposing any penalties
+                            for late payments up to 30 days for all accounts with due date between march 16 2020 to april 14, 2021.
+                        </span> 
+                        <span class="text-blue-700"> We hope everyone stays safe during this difficult time</span>
+                        <div class="grid-cols-3 ">
+                            <img src="logo.png" class="h-20 w-auto" alt="logo">
+                            
+                        </div>
+
+                    </div>  
+                </div>
+                <div class="bg-white rounded overflow-hidden shadow-md relative">
+                    <div class="m-4 text-center">
+                        <span class="font-bold">Village Guard's Hotline</span>
+                        <span class="block text-gray-900 text-sm"> </span>
+                    </div>
+                    
+                </div>
+                <div class="bg-white rounded overflow-hidden shadow-md relative">
+                    <div class="m-4 text-center">
+                        <span class="font-bold">City Emergency Hotlines</span>
+                        <span class="block text-gray-500 text-sm"></span>
+                    </div>
+                </div>
+        </div>
+</body>
+</html>
