@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body>
+    <div class="relative bg-green-500 h-screen w-screen flex flex-col bg-cover bg-no-repeat" style="background-image: url('bg.png');">
+        <div class="flex flex-col bg-white h-24 w-screen">
+            <div class="flex flex-row  justify-between mx-14">
+                <div class="flex justify-start">
+                    <img src="logo.png" class="h-20 w-auto">
+                    <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline mx-14 text-xl mt-5">Guard Admin </a>
+                    <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline mx-14 text-xl mt-5">Maintance Admin </a>
+                    <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline mx-14 text-xl mt-5">Admin Office </a>
+                    <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline mx-14 text-xl mt-5">User </a>
+                </div>  
+                <div>
+                    <div class="flex flex-wrap justify-end">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                         </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="md:flex flex-col md:flex-row md:min-h-screen w-full pt-2">
+            <div @click.away="open = false" class="flex flex-col w-full md:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">
+              <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between">
+              </div>
+              <nav :class="{'block': open, 'hidden': !open}" class="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-auto">
+                <a class="block px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Club House Maintenance</a>
+                <a class="block px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">House Maintenance</a>
+                <a class="block px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Admin Office Maintenance</a>
+              </nav>
+            </div>
+          </div>
+        
+        
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -10,33 +10,31 @@
 <body>
         <div class="relative bg-green-500 h-screen w-screen flex flex-col bg-cover bg-no-repeat" style="background-image: url('bg.png');">
             <div class="flex flex-col bg-white h-24 w-screen">
-                <div class="flex flex-row items-center justify-start mx-32">
-                    <img src="logo.png" class="h-20 w-auto">  
-                     <!--nav-->
-                    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
-                                <div class="flex-1 flex justify-between items-center">
-                                    <label for="menu-toggle" class="point-cursor"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-                                      </svg>
-                                    </label>
-                                    <input type="checkbox" class="hidden" id="menu-toggle"/>
-                                    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-                                        <nav>
-                                            <ul class=" lg:flex  justify-between  text-gray-700 pt-4 lg:pt-0 text-2xl mx-64">
-                                                <li class="text-right">
-                                                    <a href="#" class="lg:p-4 py-3 px-0  border-b-2 border-transparent hover:hover-gray700 inline"> About us</a>
-                                                    <a href="#" class="lg:p-4 py-3 px-0  border-b-2 border-transparent hover:hover-gray700 inline"> Forms</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                    </header>
+                <div class="flex flex-row  justify-between mx-14">
+                    <div class="flex justify-start">
+                        <img src="logo.png" class="h-20 w-auto">
+                    </div>  
+                    <div>
+                        <div class="flex flex-wrap justify-end">
+                            <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline ml-10 text-2xl mt-4">About us</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                            <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline ml-10 text-2xl mt-4">Forms</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                              </svg>
+                            <a href="#" class="lg:p-4 py-3 px-2  border-b-2 border-transparent hover:hover-gray700 inline ml-10 text-2xl mt-4">User </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-10 ml-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                             </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="mt-8 grid lg:grid-cols-3 gap-5 pt-6">
-                <!--cards-->
+            <div class="mt-8 grid lg:grid-cols-3 gap-10 pt-6 px-10 ">
                 <div class="bg-white  overflow-hidden shadow-md relative">
+                    <img src="header.PNG" class="w-full" alt="">
                     <div class="m-4 text-center pt-24 pb-24">
                         <span class="font-bold text-blue-700 text-center justify-center uppercase pt-6 text-xl whitespace-pre">Announcement</span>
                         <span class="block text-blue-700 text-lg pt-6"> To our value customer:</span>
@@ -45,24 +43,59 @@
                             for late payments up to 30 days for all accounts with due date between march 16 2020 to april 14, 2021.
                         </span> 
                         <span class="text-blue-700"> We hope everyone stays safe during this difficult time</span>
-                        <div class="grid-cols-3 ">
-                            <img src="logo.png" class="h-20 w-auto" alt="logo">
-                            
+                        <div class="flex flex-row mb-10">
+                            <img src="logo.png" class="h-24 w-auto pt-10" alt="logo">
+                            <img src="logo1.PNG" class="h-24 w-auto pt-10" alt=""> 
+                            <img src="alyanna.jpg" class="h-24 w-auto pt-10 mx-6" alt="alyanna logo"> 
                         </div>
-
+                        
+                        
                     </div>  
                 </div>
-                <div class="bg-white rounded overflow-hidden shadow-md relative">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md relative ">
                     <div class="m-4 text-center">
-                        <span class="font-bold">Village Guard's Hotline</span>
-                        <span class="block text-gray-900 text-sm"> </span>
+                        <span class="font-bold text-xl">Village Guard's Hotline</span>
+                        <div class="w-9/12 flex flex-row">
+                            <div class="w-2/3 flex flex-col mt-3 ">
+                                <img src="guard.png" class="w-32" alt="">
+                            </div>
+                            <div class="flex flex-col md:flex-row mt-12">
+                                <h1 class="text-blue-700 font-bold ">Gate X </h1>
+                            
+                            </div>
+                        </div>
+
+                        <span class="block text-gray-900 text-xl mt-20 font-bold">Admin's Hotline</span>
+                        <div class="w-9/12 flex flex-row">
+                            <div class="w-2/3 flex flex-col mt-3 ">
+                                <img src="admins.PNG" class="w-40" alt="">
+                            </div>
+                            <div class="flex flex-col md:flex-row mt-12">
+                                <h1 class="text-blue-700 font-bold mx-3 ">Name of administration </h1>
+                            
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
-                <div class="bg-white rounded overflow-hidden shadow-md relative">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md relative">
                     <div class="m-4 text-center">
                         <span class="font-bold">City Emergency Hotlines</span>
-                        <span class="block text-gray-500 text-sm"></span>
+                        <div class="w-9/12 flex flex-row">
+                            <div class="w-2/3 flex flex-col mt-3 ">
+                                <img src="police.PNG" class="w-52 mx-14" alt="">
+                            </div>
+                            <div class="flex flex-col md:flex-row mt-12 ">
+                                <img src="hospital.PNG" class="w-52 mx-28 " alt="">
+                            </div>
+                        </div>
+                        <div class="w-9/12 flex flex-row mt-40">
+                            <div class="w-2/3 flex flex-col mt-3 ">
+                                <img src="firestation.PNG" class="w-52 mx-14" alt="">
+                            </div>
+                            <div class="flex flex-col md:flex-row mt-12 ">
+                                <img src="cityhall.PNG" class="w-52 mx-28 " alt="">
+                            </div>
                     </div>
                 </div>
         </div>
